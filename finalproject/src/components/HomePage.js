@@ -1,9 +1,14 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const HomePage = () => {
     return (
         <div>
-            <h1>Design to be the homepage maybe the submit file idea</h1>
+            <h1>What quiz do you wanna take?</h1>
+            <Link to="MusicQuiz"><button>Music</button></Link>
+            <Link to="FoodQuiz"><button>Food</button></Link>
+            <Link to="SportsQuiz"><button>Sports</button></Link>
+            
         </div>
     )
 }
