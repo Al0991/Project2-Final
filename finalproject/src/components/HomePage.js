@@ -8,7 +8,6 @@ const HomePage = () => {
             <Link to="MusicQuiz"><button>Music</button></Link>
             <Link to="FoodQuiz"><button>Food</button></Link>
             <Link to="SportsQuiz"><button>Sports</button></Link>
-            
         </div>
     )
 }
