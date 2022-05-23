@@ -1,18 +1,21 @@
 import React from 'react'
 
-const Question = () => {
+const Question = (props) => {
     return (
         <div>
+            {props.Question}
             <form>
                 <input type='radio' id='Choice1' name='Question'/>
-                <label for='Choice1'>Choice1</label><br/>
+                <label for='Choice1'>{props.Choices[0]}</label><br/>
                 <input type='radio' id='Choice2' name='Question'/>
-                <label for='Choice2'>Choice2</label><br/>
+                <label for='Choice2'>{props.Choices[1]}</label><br/>
                 <input type='radio' id='Choice3' name='Question'/>
-                <label for='Choice3'>Choice3</label><br/>
+                <label for='Choice3'>{props.Choices[2]}</label><br/>
                 <input type='radio' id='Choice4' name='Question'/>
-                <label for='Choice4'>Choice4</label>
+                <label for='Choice4'>{props.Choices[3]}</label>
             </form>
         </div>
     )
 }
+
+export default Question
