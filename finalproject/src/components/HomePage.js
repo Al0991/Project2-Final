@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const HomePage = (props) => {
 
@@ -11,14 +12,10 @@ const HomePage = (props) => {
     if(linkClicked === false){
     return (
         <div>
-<<<<<<< Updated upstream
-            <h1>Design to be the homepage maybe the submit file idea</h1>
-=======
             <h1>Take your first quiz!</h1>
             <Link to="MusicQuiz"><button onClick={handleClick}>Music</button></Link>
             <Link to="FoodQuiz"><button onClick={handleClick}>Food</button></Link>
             <Link to="SportsQuiz"><button onClick={handleClick}>Sports</button></Link>
->>>>>>> Stashed changes
         </div>
     )
     }

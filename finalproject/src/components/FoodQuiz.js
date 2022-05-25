@@ -18,7 +18,7 @@ const FoodQuiz = () => {
 
     return (
         <div> 
-            <h1>Music</h1>
+            <h1>Food</h1>
             <Question Question={Question1} Choices={Choices1} /> <br />
             <Question Question={Question2} Choices={Choices2} /> <br />
             <Question Question={Question3} Choices={Choices3} /> <br />
