@@ -7,7 +7,7 @@ Users can take a quiz to guess their favorite of something. This is done by havi
 
 ## Visuals
 
-![Alt text](ReadMePics\homepage.PNG "homepage")
-![Alt text](ReadMePics\MusicQuiz.PNG "musicquiz")
-![Alt text](ReadMePics\FoodQuiz.PNG "Foodquiz")
-![Alt text](ReadMePics\SportsQuiz.PNG "sportsuiz")
+![Alt text](.\ReadMePics\homepage.PNG "homepage")
+![Alt text](.\ReadMePics\MusicQuiz.PNG "musicquiz")
+![Alt text](.\ReadMePics\FoodQuiz.PNG "Foodquiz")
+![Alt text](.\ReadMePics\SportsQuiz.PNG "sportsuiz")
